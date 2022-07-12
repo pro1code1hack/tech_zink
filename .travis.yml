@@ -3,7 +3,7 @@ arch:
   - amd64
 
 env:
-  - IMGNAME=ubuntu:epam_test
+  - IMGNAME=ubuntu: zinc_test
 
 services:
   - docker

@@ -856,3 +856,63 @@ IndexError: list index out of range
 12-24 01:34 werkzeug     WARNING   * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 12-24 01:34 werkzeug     INFO      * Running on http://192.168.0.21:8000/ (Press CTRL+C to quit)
+07-12 22:53 werkzeug     WARNING   * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+07-12 22:53 werkzeug     INFO      * Running on http://172.20.10.10:8070/ (Press CTRL+C to quit)
+07-12 22:53 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 22:53:35] "GET / HTTP/1.1" 200 -
+07-12 22:53 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 22:53:35] "GET /static/style.css HTTP/1.1" 200 -
+07-12 22:53 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 22:53:35] "GET /static/staticpics/vorota_list.jpg HTTP/1.1" 200 -
+07-12 22:53 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 22:53:35] "GET /static/staticpics/dveri_list.jpg HTTP/1.1" 200 -
+07-12 22:53 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 22:53:35] "GET /static/staticpics/kamin_list.jpg HTTP/1.1" 200 -
+07-12 22:53 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 22:53:35] "GET /static/staticpics/Bookcases%20&%20Shelving%20for%20sale%20_%20eBay.jpg HTTP/1.1" 200 -
+07-12 22:53 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 22:53:35] "GET /static/staticpics/Bedini%20Custom%20Guitars.jpg HTTP/1.1" 200 -
+07-12 22:53 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 22:53:35] "GET /static/staticpics/kacheli_list.jpg HTTP/1.1" 200 -
+07-12 22:53 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 22:53:35] "GET /static/staticpics/ladder_list.jpg HTTP/1.1" 200 -
+07-12 22:53 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 22:53:35] "GET /static/staticpics/Razhodniki.jpg HTTP/1.1" 200 -
+07-12 22:53 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 22:53:35] "GET /static/staticpics/vorota.jpg HTTP/1.1" 200 -
+07-12 22:53 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 22:53:35] "GET /static/staticpics/fireplace.jpg HTTP/1.1" 200 -
+07-12 22:53 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 22:53:35] "GET /static/staticpics/tables.jpg HTTP/1.1" 200 -
+07-12 22:53 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 22:53:35] "GET /static/staticpics/photo4.jpg HTTP/1.1" 200 -
+07-12 22:53 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 22:53:35] "GET /static/staticpics/bed.jpg HTTP/1.1" 200 -
+07-12 22:53 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 22:53:35] "GET /static/staticpics/lest_6_b.jpg HTTP/1.1" 200 -
+07-12 22:53 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 22:53:35] "GET /static/staticpics/star-fill.png HTTP/1.1" 200 -
+07-12 22:53 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 22:53:35] "GET /static/staticpics/star-no-fill.png HTTP/1.1" 200 -
+07-12 22:53 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 22:53:35] "GET /static/staticpics/bs9.jpg HTTP/1.1" 200 -
+07-12 22:53 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 22:53:36] "GET /static/staticpics/newlogo(1).jpg HTTP/1.1" 200 -
+07-12 22:53 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 22:53:39] "[32mGET /swagger HTTP/1.1[0m" 308 -
+07-12 22:53 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 22:53:39] "GET /swagger/ HTTP/1.1" 200 -
+07-12 22:53 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 22:53:39] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+07-12 22:53 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 22:53:39] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+07-12 22:53 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 22:53:39] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+07-12 22:53 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 22:53:39] "GET /static/swagger.json HTTP/1.1" 200 -
+07-12 22:53 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 22:53:39] "GET /swagger/favicon-32x32.png HTTP/1.1" 200 -
+07-12 22:56 werkzeug     WARNING   * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+07-12 22:56 werkzeug     INFO      * Running on http://172.20.10.10:8070/ (Press CTRL+C to quit)
+07-12 22:56 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 22:56:26] "[33mGET / HTTP/1.1[0m" 404 -
+07-12 22:56 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 22:56:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+07-12 22:56 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 22:56:30] "GET /swagger/ HTTP/1.1" 200 -
+07-12 22:56 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 22:56:31] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+07-12 22:56 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 22:56:31] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+07-12 22:56 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 22:56:31] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+07-12 22:56 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 22:56:31] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+07-12 22:56 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 22:56:37] "GET /items HTTP/1.1" 200 -
+07-12 23:14 werkzeug     WARNING   * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+07-12 23:14 werkzeug     INFO      * Running on http://172.20.10.10:8070/ (Press CTRL+C to quit)
+07-12 23:14 werkzeug     WARNING   * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+07-12 23:14 werkzeug     INFO      * Running on http://172.20.10.10:8070/ (Press CTRL+C to quit)
+07-12 23:15 werkzeug     WARNING   * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+07-12 23:15 werkzeug     INFO      * Running on http://172.20.10.10:8070/ (Press CTRL+C to quit)
+07-12 23:16 flask_migrate ERROR    Error: Directory migrations already exists and is not empty
+07-12 23:20 werkzeug     WARNING   * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+07-12 23:20 werkzeug     INFO      * Running on http://172.20.10.10:8070/ (Press CTRL+C to quit)
+07-12 23:20 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 23:20:46] "[33mGET / HTTP/1.1[0m" 404 -
+07-12 23:20 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 23:20:51] "GET /swagger/ HTTP/1.1" 200 -
+07-12 23:20 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 23:20:51] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+07-12 23:20 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 23:20:51] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+07-12 23:20 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 23:20:51] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+07-12 23:20 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 23:20:51] "GET /static/swagger.json HTTP/1.1" 200 -
