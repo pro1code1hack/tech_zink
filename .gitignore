@@ -1,0 +1,9 @@
+rest/bought_items.py
+rest/items.py
+rest/orders.py
+services/item_service.py
+services/order_service.py
+tests/test_project.py
+tests/test_orders.py
+tests/conftest.py
+tests/test_aggregations.py

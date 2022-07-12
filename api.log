@@ -916,3 +916,24 @@ IndexError: list index out of range
 07-12 23:20 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 23:20:51] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
 07-12 23:20 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 23:20:51] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
 07-12 23:20 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 23:20:51] "GET /static/swagger.json HTTP/1.1" 200 -
+07-12 23:33 werkzeug     WARNING   * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+07-12 23:33 werkzeug     INFO      * Running on http://172.20.10.10:8070/ (Press CTRL+C to quit)
+07-12 23:33 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 23:33:49] "[33mGET / HTTP/1.1[0m" 404 -
+07-12 23:33 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 23:33:52] "GET /swagger/ HTTP/1.1" 200 -
+07-12 23:33 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 23:33:52] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+07-12 23:33 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 23:33:52] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+07-12 23:33 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 23:33:52] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+07-12 23:33 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 23:33:52] "GET /static/swagger.json HTTP/1.1" 200 -
+07-12 23:37 werkzeug     WARNING   * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+07-12 23:37 werkzeug     INFO      * Running on http://172.20.10.10:8070/ (Press CTRL+C to quit)
+07-12 23:37 werkzeug     INFO     172.20.10.10 - - [12/Jul/2022 23:37:10] "[33mGET / HTTP/1.1[0m" 404 -
+07-12 23:42 flask_migrate ERROR    Error: Directory migrations already exists and is not empty
+07-12 23:44 flask_migrate ERROR    Error: Directory migrations already exists and is not empty
+07-12 23:46 werkzeug     WARNING   * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+07-12 23:46 werkzeug     INFO      * Running on http://172.20.10.10:8070/ (Press CTRL+C to quit)
+07-12 23:49 werkzeug     WARNING   * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+07-12 23:49 werkzeug     INFO      * Running on http://172.20.10.10:8070/ (Press CTRL+C to quit)

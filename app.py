@@ -6,14 +6,10 @@ from flask_migrate import Migrate
 import os
 from flask_restful import Api
 from flask_swagger_ui import get_swaggerui_blueprint
+from models.models import Ticket, Event     # It is essential to import the models here, otherwise the alembic will not be able to find them
 
+basedir = os.path.abspath(os.path.dirname(__file__))
 
-
-#configuring the path to the db
-# basedir = 'sqlite:///' + os.path.join(os.path.abspath(os.path.dirname(__file__)), 'data.sqlite')
-# print(basedir)
-# sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-# print(sys.path)
 
 
 
@@ -33,10 +29,11 @@ def create_app(db_location):
         handlers=[logging.FileHandler("api.log"), logging.StreamHandler()],
     )
     app = Flask(__name__)
-    app.config['SECRET_KEY'] = '5791628bb0b13ce0c676dfde280ba245'           # TODO: use .env file
-    app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:////tmp/test.db"        # TODO use postgresql
-    app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
+    app.config['SECRET_KEY'] = '5791628bb0b13ce0c676dfde280ba245'   # TODO: use .env file
+    app.config["SQLALCHEMY_DATABASE_URI"] = os.environ.get('DATABASE_URL') or 'sqlite:///' + os.path.join(basedir, 'test.db')
+    app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+    app.config['SQLALCHEMY_ECHO'] = True
 
 
     from database import db
