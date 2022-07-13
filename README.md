@@ -20,6 +20,9 @@ Files:
 
 also i need to created the dashboard for tasks in trello/notion/jira
 
+    To run the project u need 
+    1) pip install -r requirements.txt
+    2) python app.py
 
     Essential links:
     1) http://127.0.0.1:5000/swagger/
