@@ -1,0 +1,17 @@
+
+**Event** db Structure:
+
+- name VC
+- date DATE
+- number_of_tickets --> Relationship one to many (tickets) to the model Ticket
+
+(it must me calculated via agregations)
+
+**Ticket** db Structure:
+
+- uuid
+- validity date
+- status (OPTIONS: OK/Redeemed)
+- Event -->FK
+
+

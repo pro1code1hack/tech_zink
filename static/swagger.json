@@ -11,5 +11,188 @@
       "name": "MIT",
       "url": "https://opensource.org/license/MIT"
     }
+  },
+  "servers": [
+    {
+      "url": "/"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Event request",
+      "description": "Requesting the event from the DB"
+    }
+  ],
+  "paths": {
+    "/events": {
+      "get": {
+        "tags": [
+          "Event request"
+        ],
+        "summary": "Returns all available events",
+        "responses": {
+          "201": {
+            "description": "OK",
+            "schema": {
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Event request"
+        ],
+        "summary": "Add a new item",
+        "requestBody": {
+          "description": "Requesting post object",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/events",
+                "image": {
+                }
+              }
+            }
+          }
+        },
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/uuid"
+            }
+          },
+          "400": {
+            "description": "Failed"
+          }
+        }
+      }
+    },
+    "/tickets": {
+      "post": {
+        "tags": [
+          "Ticket request"
+        ],
+        "summary": "Add a new item",
+        "requestBody": {
+          "description": "Requesting post object",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ticket",
+                "image": {
+                }
+              }
+            }
+          }
+        },
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/uuid"
+            }
+          },
+          "400": {
+            "description": "Failed"
+          }
+        }
+      }
+    },
+    "/tickets/{id}": {
+      "get": {
+        "tags": [
+          "Ticket request"
+        ],
+        "summary": "Add a new item",
+        "requestBody": {
+          "description": "Requesting post object",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ticket_id",
+                "image": {
+                }
+              }
+            }
+          }
+        },
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/uuid"
+            }
+          },
+          "400": {
+            "description": "Failed"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "uuid": {
+        "properties": {
+          "uuid": {
+            "type": "string"
+          }
+        }
+      },
+      "category": {
+        "properties": {
+          "uuid": {
+            "type": "string"
+          }
+        }
+      },
+      "events": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "format": "string"
+          },
+          "number_of_tickets": {
+            "type": "integer",
+            "format": "integer"
+          }
+        }
+      },
+      "ticket": {
+        "type": "object",
+        "properties": {
+          "status": {
+            "type": "string",
+            "format": "string"
+          },
+          "event_id": {
+            "type": "integer",
+            "format": "integer"
+          }
+        }
+      },
+      "ticket_id": {
+        "type": "object",
+        "properties": {
+          "uuid": {
+            "type": "string"
+          }
+        }
+      }
+    }
   }
 }
